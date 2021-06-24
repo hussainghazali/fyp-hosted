@@ -64,21 +64,6 @@ export class NavService {
 			]
 		},
 		{
-			title: 'Products', type: 'sub', active: false, children: [
-				{
-					title: 'New Arrivals', type: 'sub', active: false, children: [
-						{ path: '/shop/product/left/sidebar/trim-dress', title: 'Sindhi Ajrak', type: 'link' },
-						{ path: '/shop/product/right/sidebar/trim-dress', title: 'Jwewllery Products', type: 'link' },
-						{ path: '/shop/product/no/sidebar/trim-dress', title: 'Kitchen Accessories', type: 'link' }
-					]
-				},
-				{ path: '/shop/product/three/column/trim-dress', title: 'Fair Trade', type: 'link' },
-				{ path: '/shop/product/four/image/belted-dress', title: 'Featured Product', type: 'link' },
-				{ path: '/shop/product/bundle/trim-dress', title: 'bundle-product', type: 'link' },
-				{ path: '/shop/product/image/outside/trim-dress', title: 'Deals of the day', type: 'link' }
-			]
-		},
-		{
 			title: 'Features', type: 'sub', megaMenu: true, badge: true, badgeText: 'new', active: false, children: [
 				{
 					title: 'FEATURED COLLECTION OF 2021', type: 'sub', active: false, children: [
@@ -92,7 +77,6 @@ export class NavService {
 					title: 'account', type: 'sub', active: false, children: [
 						{ path: '/pages/wishlist', title: 'wishlist', type: 'link' },
 						{ path: '/pages/cart', title: 'cart', type: 'link' },
-						{ path: '/pages/dashboard', title: 'dashboard', type: 'link' },
 						{ path: '/pages/login', title: 'login', type: 'link' },
 						{ path: '/pages/register', title: 'register', type: 'link' },
 						{ path: '/pages/contact', title: 'contact', type: 'link' },
@@ -111,8 +95,7 @@ export class NavService {
 							{ path: '/pages/compare/two', title: 'compare-2', type: 'link', badge: true, badgeText: 'new' }
 						]
 					},
-				{ path: '/pages/collection', title: 'collection', type: 'link' },
-				{ path: '/pages/lookbook', title: 'lookbook', type: 'link' },
+				{ path: '/pages/collection', title: 'Augmented Reality Products', type: 'link' },
 				{ path: '/pages/comingsoon', title: 'coming-soon', type: 'link', badge: true, badgeText: 'new' },
 				{ path: '/pages/faq', title: 'faq', type: 'link' }
 			]

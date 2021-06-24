@@ -19,38 +19,38 @@ export class AboutUsComponent implements OnInit {
   // Testimonial Carousel
   public testimonial = [{
     image: 'assets/images/testimonial/1.jpg',
-    name: 'Mark jkcno',
-    designation: 'Designer',
-    description: 'you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.',
+    name: 'Hussain Ghazali',
+    designation: 'Developer',
+    description: 'k173900@nu.edu.pk',
   }, {
     image: 'assets/images/testimonial/2.jpg',
-    name: 'Adegoke Yusuff',
-    designation: 'Content Writer',
-    description: 'you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.',
+    name: 'Zuhair Waheed',
+    designation: 'Developer',
+    description: 'k173706@nu.edu.pk',
   }, {
-    image: 'assets/images/testimonial/1.jpg',
-    name: 'John Shipmen',
-    designation: 'Lead Developer',
-    description: 'you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.',
+    image: 'assets/images/testimonial/3.jpg',
+    name: 'Shayan Noor Khan',
+    designation: 'Developer',
+    description: 'k173744@nu.edu.pk',
   }]
 
   // Team 
   public team = [{
     image: 'assets/images/team/1.jpg',
-    name: 'Mark jkcno',
-    designation: 'Designer'
+    name: 'Hussain Ghazali',
+    designation: 'Developer'
   }, {
     image: 'assets/images/team/2.jpg',
-    name: 'Adegoke Yusuff',
-    designation: 'Content Writer'
+    name: 'Zuhair Waheed',
+    designation: 'Developer'
   }, {
     image: 'assets/images/team/3.jpg',
-    name: 'John Shipmen',
-    designation: 'Lead Developer'
+    name: 'Shayan Noor Khan',
+    designation: 'Developer'
   }, {
     image: 'assets/images/team/4.jpg',
-    name: 'Hileri Keol',
-    designation: 'CEO & Founder at Company'
+    name: 'Sir Fahad Samad',
+    designation: 'Supervisor'
   }, {
     image: 'assets/images/team/3.jpg',
     name: 'John Shipmen',
