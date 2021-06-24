@@ -65,25 +65,17 @@ export class WatchComponent implements OnInit, OnDestroy {
   // Collection
   public categories = [{
     image: 'assets/images/categories/1.jpg',
-    title: 'Pouches',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">d1 milano</a></li><li><a href="#">damaskeening</a></li><li><a href="#">diving watch</a></li><li><a href="#">dollar watch</a></li>'),
-  }, {
+    title: 'Pouches'}
+    , 
+    {
     image: 'assets/images/categories/2.jpg',
-    title: 'Clutches and Wristlets',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant watch</a></li><li><a href="#">Skeleton watch</a></li><li><a href="#">Slow watch</a></li><li><a href="#">Solar-powered watch</a></li>'),
-  }, {
+    title: 'Clutches and Wristlets'}, {
     image: 'assets/images/categories/3.jpg',
-    title: 'Laptop Bags',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Watchmaking conglomerates</a></li><li><a href="#">Breitling SA</a></li><li><a href="#">Casio watches</a></li><li><a href="#">Citizen Watch</a></li>'),
-  }, {
+    title: 'Metal Bags'}, {
     image: 'assets/images/categories/4.jpg',
-    title: 'Shoulder Bags',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Manufacture dhorlogerie</a></li><li><a href="#">Mechanical watch</a></li><li><a href="#">Microbrand watches</a></li><li><a href="#">MIL-W-46374</a></li>'),
-  }, {
+    title: 'Shoulder Bags'}, {
     image: 'assets/images/categories/1.jpg',
-    title: 'Pouches',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">d1 milano</a></li><li><a href="#">damaskeening</a></li><li><a href="#">diving watch</a></li><li><a href="#">dollar watch</a></li>'),
-  }]
+    title: 'Pouches'}]
 
   // collection
   public collections = [{

@@ -36,25 +36,15 @@ export class ToolsComponent implements OnInit, OnDestroy {
   // services
   public categories = [{
     image: 'assets/images/categories/6.jpg',
-    title: 'Bags',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
-  }, {
+    title: 'Bags'}, {
     image: 'assets/images/categories/7.jpg',
-    title: 'Purses',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
-  }, {
+    title: 'Purses'}, {
     image: 'assets/images/categories/8.jpg',
-    title: 'Jewellery',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
-  }, {
+    title: 'Jewellery'}, {
     image: 'assets/images/categories/9.jpg',
-    title: 'Phone Covers',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
-  }, {
+    title: 'Phone Covers'}, {
     image: 'assets/images/categories/10.jpg',
-    title: 'Shoes',
-    text:  this._sanitizer.bypassSecurityTrustHtml('<li><a href="#">Shock-resistant parts</a></li><li><a href="#">Skeleton parts</a></li><li><a href="#">Slow parts</a></li><li><a href="#">Solar-powered parts</a></li>'),
-  }]
+    title: 'Shoes'}]
 
   // Logo
   public logos = [{
